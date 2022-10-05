@@ -25,7 +25,7 @@
    &kp Q &kp D &kp R &kp W &kp B           &kp J &kp F  &kp U    &kp P   &kp SCLN
    &kp A &kp S &kp H &kp T &kp G           &kp Y &kp N  &kp E    &kp O   &kp I
    &kp Z &kp X &kp M &kp C &kp V           &kp K &kp L  &kp CMMA &kp DOT &kp FSLH
-           &kp LCTL &td_sc &kp SPC           &kp RET &kp BKSP &mo 1
+           &kp LCTL &td_sc &kp SPC         &kp RET &kp BKSP &mo 1
                         >;
                 };
 
@@ -33,18 +33,18 @@
                         bindings = <
    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5            &kp N6    &kp N7   &kp N8   &kp N9    &kp N0
    &kp TAB   &kp LARW  &kp UARW  &kp RARW  &kp LBKT          &kp RBKT  &trans   &kp SQT  &kp MINUS &kp EQL
-   &kp GRAVE &kp PGUP  &kp DARW  &kp PGDN  &trans         &trans    &trans   &trans   &trans    &kp BSLH
-                     &mo 2   &kp LALT  &kp ESC    &kp LGUI    &trans   &trans
+   &kp GRAVE &kp PGUP  &kp DARW  &kp PGDN  &trans            &trans    &trans   &trans   &trans    &kp BSLH
+                       &mo 2     &kp LALT  &kp ESC           &kp LGUI  &trans   &trans
                         >;
                 };
 
                 fn_layer {
 
                         bindings = <
-   &kp F1    &kp F2     &kp F3     &kp F4    &kp F5          &kp F6    &kp F7    &kp F8    &kp F9    &kp F10     
-   &trans    &kp K_PREV &kp PP     &kp K_NEXT    &kp F11         &kp F12   &bt BT_PRV    &trans    &bt BT_NXT    &trans
-   &trans    &kp VOL_UP &kp K_STOP &kp VOL_DN    &trans          &bt BT_CLR    &trans    &trans    &trans    &out OUT_TOG
-                        &trans     &trans    &trans          &trans    &trans    &trans
+   &kp F1    &kp F2     &kp F3     &kp F4     &kp F5          &kp F6     &kp F7     &kp F8    &kp F9     &kp F10     
+   &trans    &kp K_PREV &kp C_PLAY &kp K_NEXT &kp F11         &kp F12    &bt BT_PRV &trans    &bt BT_NXT &trans
+   &trans    &kp VOL_UP &kp K_STOP &kp VOL_DN &trans          &bt BT_CLR &trans     &trans    &trans     &out OUT_TOG
+                        &trans     &trans     &trans          &trans     &trans     &trans
                         >;
                 };
 
