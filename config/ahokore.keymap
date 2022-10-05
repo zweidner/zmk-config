@@ -22,17 +22,17 @@
 
                 default_layer {
                         bindings = <
-   &kp Q &kp D &kp R &kp W &kp B   &kp J &kp F  &kp U    &kp P   &kp SCLN
-   &kp A &kp S &kp H &kp T &kp G   &kp Y &kp N  &kp E    &kp O   &kp I
-   &kp Z &kp X &kp M &kp C &kp V   &kp K &kp L  &kp CMMA &kp DOT &kp FSLH
-       &kp LCTL &td0 &kp SPC   &kp ENT &kp BKSP &mo 1
+   &kp Q &kp D &kp R &kp W &kp B           &kp J &kp F  &kp U    &kp P   &kp SCLN
+   &kp A &kp S &kp H &kp T &kp G           &kp Y &kp N  &kp E    &kp O   &kp I
+   &kp Z &kp X &kp M &kp C &kp V           &kp K &kp L  &kp CMMA &kp DOT &kp FSLH
+           &kp LCTL &kp LSFT &kp SPC           &kp ENT &kp BKSP &mo 1
                         >;
                 };
 
                 nav_layer {
                         bindings = <
-   &kp N1    &kp N2    &kp N3    &kp N4    &N5            &kp N6    &kp N7   &kp N8   &kp N9    &kp N0
-   &kp TAB   &kp LARW  &kp UARW  &kp RARW  &LBKT          &kp RBKT  &trans   &kp SQT  &kp MINUS &kp EQL
+   &kp N1    &kp N2    &kp N3    &kp N4    &kp N5            &kp N6    &kp N7   &kp N8   &kp N9    &kp N0
+   &kp TAB   &kp LARW  &kp UARW  &kp RARW  &kp LBKT          &kp RBKT  &trans   &kp SQT  &kp MINUS &kp EQL
    &kp GRAVE &kp PGUP  &kp DARW  &kp PGDN  &trans         &trans    &trans   &trans   &trans    &kp BSLH
                      &mo 2   &kp LALT  &kp ESC    &kp LGUI    &trans   &trans
                         >;
