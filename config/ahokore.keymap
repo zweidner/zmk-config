@@ -28,24 +28,25 @@
        &kp LCTL &td0 &kp SPC   &kp ENT &kp BKSP &mo 1
                         >;
                 };
+
                 nav_layer {
-
-
                         bindings = <
    &kp N1    &kp N2    &kp N3    &kp N4    &N5            &kp N6    &kp N7   &kp N8   &kp N9    &kp N0
    &kp TAB   &kp LARW  &kp UARW  &kp RARW  &LBKT          &kp RBKT  &trans   &kp SQT  &kp MINUS &kp EQL
    &kp GRAVE &kp PGUP  &kp DARW  &kp PGDN  &trans         &trans    &trans   &trans   &trans    &kp BSLH
-                     &mo 2   &kp LALT  &kp ESC    &LGUI    &trans   &trans
+                     &mo 2   &kp LALT  &kp ESC    &kp LGUI    &trans   &trans
                         >;
                 };
 
+                fn_layer {
 
                         bindings = <
-   &kp F1    $kp F2     $kp F3     $kp F4    $kp F5          $kp F6    $kp F7    $kp F8    $kp F9    $kp F10     
-   &trans    $kp K_PREV $kp PP     $kp K_NEXT    $kp F11         $kp F12   $bt BT_PRV    $trans    $bt BT_NXT    $trans
-   &trans    $kp VOL_UP $kp K_STOP $kp VOL_DN    $trans          $bt BT_CLR    $trans    $trans    $trans    $out OUT_TOG
-                        $trans     $trans    $trans          $trans    $trans    $trans
+   &kp F1    &kp F2     &kp F3     &kp F4    &kp F5          &kp F6    &kp F7    &kp F8    &kp F9    &kp F10     
+   &trans    &kp K_PREV &kp PP     &kp K_NEXT    &kp F11         &kp F12   &bt BT_PRV    &trans    &bt BT_NXT    &trans
+   &trans    &kp VOL_UP &kp K_STOP &kp VOL_DN    &trans          &bt BT_CLR    &trans    &trans    &trans    &out OUT_TOG
+                        &trans     &trans    &trans          &trans    &trans    &trans
                         >;
                 };
+
               };
-          };
+};
