@@ -4,13 +4,13 @@
 
 #define default_layer 0
 #define nav_layer   1
-#define sym_layer   2
+#define fn_layer   2
 
 / {
         behaviors {
-          td0: tap_dance_0 {
+          td_sc: shift_caps {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
+            label = "SHIFT_CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSFT>, <&kp CAPS>;
@@ -25,7 +25,7 @@
    &kp Q &kp D &kp R &kp W &kp B           &kp J &kp F  &kp U    &kp P   &kp SCLN
    &kp A &kp S &kp H &kp T &kp G           &kp Y &kp N  &kp E    &kp O   &kp I
    &kp Z &kp X &kp M &kp C &kp V           &kp K &kp L  &kp CMMA &kp DOT &kp FSLH
-           &kp LCTL &kp LSFT &kp SPC           &kp ENT &kp BKSP &mo 1
+           &kp LCTL &td_sc &kp SPC           &kp ENT &kp BKSP &mo 1
                         >;
                 };
 
