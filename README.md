@@ -8,6 +8,8 @@ There are 5 bluetooth profiles that can be changed and cleared using the keys on
 Current configuration:
 
 The layer shift keys are momentary modifiers - hold them as you would hold shift to capitalize a letter.  Hold the right thumb key to access layer 2, hold the right thumb key _and then also_ hold the left thumb key to access layer 3.  Order is important in this case.
+
+
 ![layer1](https://github.com/zweidner/zmk-config/assets/413795/7fced598-8d7e-40bd-8b18-790fbd8191ba)
 ![layer2](https://github.com/zweidner/zmk-config/assets/413795/478da2cb-32da-4779-8bec-f178d06c1156)
 ![layer3](https://github.com/zweidner/zmk-config/assets/413795/5517cb45-7a46-4e7b-a652-24a5807c7812)
