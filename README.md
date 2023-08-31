@@ -7,6 +7,6 @@ Further modifications can be made using the documentation and copying what I've 
 
 ![layer2](https://github.com/zweidner/zmk-config/assets/413795/9a0c04e1-7299-4b2f-8745-6d3ccdae5693)
 
-![layer3](https://github.com/zweidner/zmk-config/assets/413795/2fd42a39-b5d0-4204-9ab6-099859c4e6e9)
+![layer3](https://github.com/zweidner/zmk-config/assets/413795/025a6888-9ecd-4b88-ab8a-2b1dd0599e3c)
 
 Credit to dezli for the design I adapted (https://github.com/dezlidezlidezli/ahokore) (https://store.dez.li/)
