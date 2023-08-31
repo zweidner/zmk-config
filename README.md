@@ -1,7 +1,9 @@
 # zmk-config
 Check https://zmk.dev/docs for details.
 
-Further modifications can be made using the documentation and copying what I've done with this repo.
+Further modifications can be made using the documentation and copying what I've done with this repo.  Firmware is built via Github Actions on this repo or your fork of it, and can be downloaded from the workflow artifacts.  To flash the keyboard, double press the reset button on the front of the keyboard and it should show up as a removable disk.  Copy the .uf2 file in the firmware zip to the root of the removable disk and it will be flashed and the keyboard will reset with the new firmware.
+
+There are 5 bluetooth profiles that can be changed and cleared using the keys on layer 3 so that multiple devices can be paired.  There's an output select button on layer 3 to switch between USB and Bluetooth inputs, allowing two devices to be connected simultaneously and switch between the two devices actively.
 
 Current configuration:
 
