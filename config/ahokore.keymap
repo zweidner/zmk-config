@@ -6,6 +6,7 @@
 #define default_layer 0
 #define nav_layer   1
 #define fn_layer   2
+#define qwerty_layer 3
 
 / {
         behaviors {
