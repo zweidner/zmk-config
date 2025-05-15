@@ -55,6 +55,6 @@
    &kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K    &kp L   &kp SCLN
    &kp Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH
            &kp LCTL &td_sc &kp SPC         &kp RET &kp BKSP &mo 1
-
+                        >;
               };
 };
