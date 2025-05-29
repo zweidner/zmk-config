@@ -53,10 +53,10 @@
                 qwerty_layer {
 
                         bindings = <
-   &kp F1    &kp F2       &kp F3     &kp F4       &kp F5          &kp F6     &kp F7     &kp F8    &kp F9     &kp F10     
-   &trans    &kp K_PREV   &kp C_PLAY &kp K_NEXT   &kp F11         &kp F12    &bt BT_PRV &trans    &bt BT_NXT &trans
-   &trans    &kp K_VOL_UP &kp K_STOP &kp K_VOL_DN &trans          &bt BT_CLR &trans     &trans    &trans     &out OUT_TOG
-                          &trans     &trans       &trans          &trans     &trans     &trans
+   &kp Q    &kp W    &kp E     &kp R    &kp T         &kp Y    &kp U     &kp I    &kp O    &kp P     
+   &kp A    &kp S    &kp D     &kp F    &kp G         &kp H    &kp J     &kp K    &kp L    &kp SCLN
+   &kp Z    &kp X    &kp C     &kp V    &kp B         &kp N    &kp M     &kp CMMA &kp DOT  &kp FSLH
+                     &mo 2     &td_sc   &kp SPC       &kp RET  &kp BKSP  &mo 1
                         >;
                 };
 
